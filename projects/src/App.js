@@ -10,8 +10,10 @@ function App() {
           paddingBottom: "1rem"
         }}
       >
-        <Link to="/lucky-number">My Lucky Number</Link> |{" "}
-        <Link to="/local-time">Local Time</Link> |{" "}
+        <Link to="/lucky-number">Javascript Expressions in JSX & ES6 Template Literals</Link> |{" "}
+        <Link to="/local-time">useState Hook Practice</Link> |{" "}
+        <Link to="/greeting">React Styling Practice</Link> |{" "}
+
       </nav>
     </div>
   );

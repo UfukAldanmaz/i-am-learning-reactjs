@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../assets/css/LocalTime.css";
 
 function LocalTime() {
     setInterval(updateTime, 1000);
