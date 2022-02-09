@@ -8,6 +8,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LuckyNumber from './pages/LuckyNumber';
+import LocalTime from './pages/LocalTime';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="lucky-number" element={<LuckyNumber />} />
+        <Route path="local-time" element={<LocalTime />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

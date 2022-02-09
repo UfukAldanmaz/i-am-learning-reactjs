@@ -11,6 +11,7 @@ function App() {
         }}
       >
         <Link to="/lucky-number">My Lucky Number</Link> |{" "}
+        <Link to="/local-time">Local Time</Link> |{" "}
       </nav>
     </div>
   );
