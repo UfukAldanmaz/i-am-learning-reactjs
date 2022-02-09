@@ -13,6 +13,8 @@ function App() {
         <Link to="/lucky-number">Javascript Expressions in JSX & ES6 Template Literals</Link> |{" "}
         <Link to="/local-time">useState Hook Practice</Link> |{" "}
         <Link to="/greeting">React Styling Practice</Link> |{" "}
+        <Link to="/mapping-data">Mapping Data to Components</Link> |{" "}
+
 
       </nav>
     </div>
