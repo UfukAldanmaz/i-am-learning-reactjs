@@ -14,6 +14,7 @@ function App() {
         <Link to="/local-time">useState Hook Practice</Link> |{" "}
         <Link to="/greeting">React Styling Practice</Link> |{" "}
         <Link to="/mapping-data">Mapping Data to Components</Link> |{" "}
+        <Link to="/emojipedia">Emojipedia</Link> |{" "}
 
 
       </nav>

@@ -12,6 +12,7 @@ import LocalTime from './pages/LocalTime';
 import Greeting from './pages/Greeting';
 import "./assets/css/style.css";
 import MappingData from './pages/MappingData';
+import Emojipedia from './pages/Emojipedia';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.render(
         <Route path="local-time" element={<LocalTime />} />
         <Route path="greeting" element={<Greeting />} />
         <Route path="mapping-data" element={<MappingData />} />
+        <Route path="emojipedia" element={<Emojipedia />} />
 
 
       </Routes>
