@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom'; import {
   BrowserRouter,
   Routes,
-  Route
+  Route,
 } from "react-router-dom";
 import './index.css';
 import App from './App';
@@ -13,6 +13,7 @@ import Greeting from './pages/Greeting';
 import "./assets/css/style.css";
 import MappingData from './pages/MappingData';
 import Emojipedia from './pages/Emojipedia';
+import Calculate from './pages/Calculate';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,6 +25,7 @@ ReactDOM.render(
         <Route path="greeting" element={<Greeting />} />
         <Route path="mapping-data" element={<MappingData />} />
         <Route path="emojipedia" element={<Emojipedia />} />
+        <Route path="calculate" element={<Calculate />} />
 
 
       </Routes>
