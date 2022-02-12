@@ -19,8 +19,6 @@ function MappingData() {
         <div className="mapping">
             <h1 className="heading">My Contacts</h1>
             {contacts.map(createCard)}
-
-
         </div>
     );
 }
