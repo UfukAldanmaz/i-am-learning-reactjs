@@ -1,24 +1,31 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <h1>My React Projects</h1>
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem"
-        }}
-      >
-        <Link to="/lucky-number">Javascript Expressions in JSX & ES6 Template Literals</Link> |{" "}
-        <Link to="/local-time">useState Hook Practice</Link> |{" "}
-        <Link to="/greeting">React Styling Practice</Link> |{" "}
-        <Link to="/mapping-data">Mapping Data to Components</Link> |{" "}
-        <Link to="/emojipedia">Emojipedia</Link> |{" "}
-
-
-      </nav>
-    </div>
+    <div className="top-menu">
+      <h1 className="heading">My React Exercises</h1>
+      <nav>
+        <div className="link">
+          <h2 className="content"><NavLink to="/lucky-number">Javascript Expressions in JSX & ES6 Template Literals </NavLink> {" "}
+          </h2>
+        </div>
+        <div className="link">
+          <h2 className="content"><NavLink to="/local-time">useState Hook Practice</NavLink> {" "}</h2>
+        </div>
+        <div className="link">
+          <h2 className="content"><NavLink to="/greeting">React Styling Practice</NavLink> {" "}</h2>
+        </div>
+        <div className="link">
+          <h2 className="content"><NavLink to="/mapping-data">Mapping Data to Components</NavLink> {" "}</h2>
+        </div>
+        <div className="link">
+          <h2 className="content"><NavLink to="/emojipedia">Emojipedia</NavLink> {" "}</h2>
+        </div>
+        <div className="link">
+          <h2 className="content"><NavLink to="/calculate">Calculator</NavLink> {" "}</h2>
+        </div>
+      </nav >
+    </div >
   );
 }
 
